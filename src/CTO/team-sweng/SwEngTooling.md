@@ -180,7 +180,7 @@ buildbox is Ubuntu 20.04 and has bison/flex/autoconf/gcc/g++/build-essential (et
 
 ## Software Development Kits
 
-* CUDA / JetPack
+### CUDA / JetPack
 
   * <https://developer.nvidia.com/cuda-downloads>
   * <https://developer.nvidia.com/embedded/jetpack>
@@ -207,20 +207,22 @@ root@pfv-vmsrv-02:~# lspci |grep -i nv
 Charles may tackle this, either way it's a (for now) low priority as far as tooling goes for
 software engineering tooling. On the other hand, hardware/mechanical engineering will have much greater need for this stack for simulations/validation etc (for example <https://developer.nvidia.com/blog/drop-in-acceleration-gnu-octave/>).
 
-## Editor
+### Areas to explore
 
-We use VSCode as our standard editor with the following extensions:
+* CUDA clustering
+* mixed gpu gens/archs
 
-* for bash <https://marketplace.visualstudio.com/items?itemName=lizebang.bash-extension-pack>
-* for arduino <https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino>
-* for cortex <https://marketplace.visualstudio.com/items?itemName=marus25.cortex-debug>
-* vim
-* arm
+### Links
 
-* etc
-Essentially each developer will setup whatever environment they need to be most productive.
+* <https://www.google.com/search?client=firefox-b-e&q=ubuntu+20.04+cuda+cross+compile&oq=ubuntu+20.04+cuda+cross+compile&aqs=heirloom-srp>..
 
-It is a highly personal, subjective, task specific etc. We offer the above
-as general guidance that @ReachableCEO has found useful as he works the entire stack in VsCode.
+* <https://www.google.com/search?q=cuda+jenkins&oq=cuda+jenkins&aqs=chrome..69i57.2296j0j7&sourceid=chrome&ie=UTF-8>
 
-We strongly recommend using VsCode, any other environments will be fully unsupported by Suborbital Systems.
+* <https://www.google.com/search?client=firefox-b-e&q=cuda+build+server>
+* <https://www.google.com/search?client=firefox-b-e&ei=cFxIYKzcDJaStAaMsKrICA&q=cuda+ci+server&oq=cuda+ci+server&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANQ3idYmShg3SloAnACeACAAYYDiAH6BJIBBzAuMi4wLjGYAQCgAQGqAQdnd3Mtd2l6yAEIuAECwAEB&sclient=gws-wiz&ved=0ahUKEwis1PyjgqXvAhUWCc0KHQyYCokQ4dUDCA4&uact=5>
+* <https://www.vitaarca.net/post/tech/install-cuda-and-cudnn-to-ubuntu-server/>
+* <https://stackoverflow.com/questions/63309619/is-it-possible-to-build-an-nvidia-cuda-based-image-on-a-server-without-a-gpu>
+* <https://jupyterhub.readthedocs.io/en/latest/>
+* <https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html>
+* <https://crosstool-ng.github.io/docs/>
+

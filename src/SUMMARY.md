@@ -18,12 +18,19 @@
 # CTO
 
 - [CTO Overview](./CTO/CTO.md)
+- [TeamHwEng - SupplyChain](./CTO/team-hweng/HwEngSupplyChain.md)
+- [TeamHwEng - Tooling](./CTO/team-hweng/HwEngTooling.md)
+- [TeamSwEng - SupplyChain](./CTO/team-sweng/SwEngSupplyChain.md)
+- [TeamSwEng - Tooling](./CTO/team-sweng/SwEngTooling.md)
+- [TeamMecheng - SupplyChain](./CTO/team-mecheng/MechEngSupplyChain.md)
+- [TeamMecheng - Tooling](./CTO/team-mecheng/MechEngTooling.md)
+
 
 # CIO
 
 - [CIO Overview](./CIO/CIO.md)
 - [Policies - Business Continuity Plan](./CIO/Policies/BusinessContinuityPlan.md)
-- [Policies - Authentication](./CIO?Policies/Authentication.md)
+- [Policies - Authentication](./CIO/Policies/Authentication.md)
 - [Processes - Two Factor Authentication ](./CIO/Processes/2fa.md)
 - [Processes - Move To Production](./CIO/Processes/MoveToProduction.md)
 - [Processes - New Team Member Onboarding](./CIO/Processes/NewTeamMemberOnboarding.md)
