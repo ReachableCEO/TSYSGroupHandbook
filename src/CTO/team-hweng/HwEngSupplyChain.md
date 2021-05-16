@@ -1,8 +1,5 @@
----
-title: "TSYS Group - Engineering Documentation - Team Hardware- Supply Chain"
----
+# TSYS Group Handbook - Engineering Documentation - Team HwEng - Supply Chain
 
-# Team HwEng - Supply Chain
 
 ## Introduction
 

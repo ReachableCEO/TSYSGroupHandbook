@@ -18,11 +18,12 @@
 # CTO
 
 - [CTO Overview](./CTO/CTO.md)
-- [TeamHwEng - SupplyChain](./CTO/team-hweng/HwEngSupplyChain.md)
+- [TeamHwEng - Supply Chain](./CTO/team-hweng/HwEngSupplyChain.md)
+- [TeamHwEng - Component Inventory](./CTO/team-hweng/labComponentInventory.md)
 - [TeamHwEng - Tooling](./CTO/team-hweng/HwEngTooling.md)
-- [TeamSwEng - SupplyChain](./CTO/team-sweng/SwEngSupplyChain.md)
+- [TeamSwEng - Supply Chain](./CTO/team-sweng/SwEngSupplyChain.md)
 - [TeamSwEng - Tooling](./CTO/team-sweng/SwEngTooling.md)
-- [TeamMecheng - SupplyChain](./CTO/team-mecheng/MechEngSupplyChain.md)
+- [TeamMecheng - Supply Chain](./CTO/team-mecheng/MechEngSupplyChain.md)
 - [TeamMecheng - Tooling](./CTO/team-mecheng/MechEngTooling.md)
 
 

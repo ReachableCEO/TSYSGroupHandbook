@@ -1,8 +1,4 @@
----
-title: "TSYS Group - Engineering Documentation - Team Software - Supply Chain"
----
-
-# Team SwEng - Supply Chain
+# TSYS Group Handbook - Engineering Documentation - Team SwEng - Supply Chain
 
 ## Version
 
