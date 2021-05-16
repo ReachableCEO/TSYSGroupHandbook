@@ -1,0 +1,6 @@
+[book]
+authors = ["Charles Wyble"]
+language = "en"
+multilingual = false
+src = "./src"
+title = "TSYS Group Handbook"

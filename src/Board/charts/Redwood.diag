@@ -1,0 +1,21 @@
+blockdiag {
+
+orientation = portrait
+// set default shape
+  default_shape = roundedbox;  // default value is 'box'
+
+  // set default colors
+  default_node_color = lightblue;
+  default_group_color = "#7777FF";
+  default_linecolor = blue;
+  default_textcolor = black;
+
+  "TSYS Group Board of Directors" -> "Redwood Committee";
+  "TSYS Group Board of Directors" -> "Redwood Committee" -> "TBD - Committee Chair" ;
+  "TSYS Group Board of Directors" -> "Redwood Committee" -> "TBD - Regulatory Oversight" ;
+  "TSYS Group Board of Directors" -> "Redwood Committee" -> "TBD - Legal Oversight" ;
+  "TSYS Group Board of Directors" -> "Redwood Committee" -> "TBD - Investment portfolio Oversight" ;
+  "TSYS Group Board of Directors" -> "Redwood Committee" -> "TBD - Investment selection Oversight" ;
+  "TSYS Group Board of Directors" -> "Redwood Committee" -> "TBD - Portfolio management Oversight" ;
+  "TSYS Group Board of Directors" -> "Redwood Committee" -> "TBD - Limited Partner Oversight" ;
+}

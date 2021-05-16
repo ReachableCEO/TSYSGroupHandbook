@@ -1,0 +1,15 @@
+blockdiag {
+orientation = portrait
+// set default shape
+  default_shape = roundedbox;  // default value is 'box'
+
+  // set default colors
+  default_node_color = lightblue;
+  default_group_color = "#7777FF";
+  default_linecolor = blue;
+  default_textcolor = black;
+  
+  "Turnsys Group" ->  "HFNOC LLC" ;
+  "Turnsys Group" ->  "HFNOC LLC" -> "Holding Companies";
+  "Turnsys Group" ->  "HFNOC LLC" -> "Operating Companies";
+}

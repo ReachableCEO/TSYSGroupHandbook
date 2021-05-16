@@ -1,0 +1,20 @@
+blockdiag {
+
+orientation = portrait
+// set default shape
+  default_shape = roundedbox;  // default value is 'box'
+
+  // set default colors
+  default_node_color = lightblue;
+  default_group_color = "#7777FF";
+  default_linecolor = blue;
+  default_textcolor = black;
+
+  "TSYS Group Board of Directors" -> "Executive Governance And Nominating Committee";
+  "TSYS Group Board of Directors" -> "Executive Governance And Nominating Committee" -> "BoD Chair" ;
+  "TSYS Group Board of Directors" -> "Executive Governance And Nominating Committee" -> "BoD Co Chair" ;
+  "TSYS Group Board of Directors" -> "Executive Governance And Nominating Committee" -> "Non Profit Committee Chair" ;
+  "TSYS Group Board of Directors" -> "Executive Governance And Nominating Committee" -> "For Profit Committee Chair" ;
+  "TSYS Group Board of Directors" -> "Executive Governance And Nominating Committee" -> "HFNOC Committee Chair" ;
+  "TSYS Group Board of Directors" -> "Executive Governance And Nominating Committee" -> "Redwood Committee Chair" ;
+}

@@ -1,0 +1,26 @@
+blockdiag {
+orientation = portrait
+// set default shape
+  default_shape = roundedbox;  // default value is 'box'
+
+  // set default colors
+  default_node_color = lightblue;
+  default_group_color = "#7777FF";
+  default_linecolor = blue;
+  default_textcolor = black;
+  
+
+  "Redwood Springs Capital Partners LLC" -> "Management/Advisor";
+  "Redwood Springs Capital Partners LLC" -> "Management/Advisor" -> "Redwood Springs Capital Partners Management Co";
+  "Redwood Springs Capital Partners LLC" -> "Funds";
+  "Redwood Springs Capital Partners LLC" -> "Funds" -> "Avenue G (Venture Capital Fund)";
+  "Redwood Springs Capital Partners LLC" -> "Funds" -> "Boring & Beautiful (Private Equity Fund)";
+  "Redwood Springs Capital Partners LLC" -> "Funds" -> "Candlelight (Commercial REIT)";
+  "Redwood Springs Capital Partners LLC" -> "Funds" -> "Starlight (Commercial REIT)";
+  "Redwood Springs Capital Partners LLC" -> "Custodian Holdings";
+  "Redwood Springs Capital Partners LLC" -> "Custodian Holdings" -> "RackRental"
+  "Redwood Springs Capital Partners LLC" -> "Custodian Holdings" -> "Suborbital-Systems"
+  "Redwood Springs Capital Partners LLC" -> "Custodian Holdings" -> "HFNOC"
+  "Redwood Springs Capital Partners LLC" -> "Custodian Holdings" -> "Accelerate 3d"
+  "Redwood Springs Capital Partners LLC" -> "Custodian Holdings" -> "GreenSleveSurgical"
+}

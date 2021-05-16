@@ -1,0 +1,11 @@
+blockdiag {
+orientation = portrait
+// set default shape
+  default_shape = roundedbox;  // default value is 'box'
+  
+  "TSYS Group"
+  "TSYS Group" -> "ForProfit" 
+  "TSYS Group" -> "NonProfit" 
+  "TSYS Group" -> "Redwood" 
+  "TSYS Group" -> "HFNOC"
+}

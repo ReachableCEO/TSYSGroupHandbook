@@ -1,0 +1,17 @@
+blockdiag {
+orientation = portrait
+// set default shape
+  default_shape = roundedbox;  // default value is 'box'
+
+  // set default colors
+  default_node_color = lightblue;
+  default_group_color = "#7777FF";
+  default_linecolor = blue;
+  default_textcolor = black;
+  
+  "HFNOC LLC" -> "Operating Companies" 
+  "HFNOC LLC" -> "Operating Companies" -> "Commons (NCL) Flight Operations Co";
+  "HFNOC LLC" -> "Operating Companies" -> "Proprietary (non NCL) Flight Operations Co";
+  "HFNOC LLC" -> "Operating Companies" -> "United States Government - Classified Flight Operations Co";
+  "HFNOC LLC" -> "Operating Companies" -> "United States Government - Unclassified Flight Operations Co";
+}
