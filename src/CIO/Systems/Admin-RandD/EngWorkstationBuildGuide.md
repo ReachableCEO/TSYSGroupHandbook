@@ -13,6 +13,7 @@
       - [Recoll (local search)](#recoll-local-search)
       - [Bitwarden CLI](#bitwarden-cli)
       - [Krita](#krita)
+      - [Backslide](#backslide)
       - [Docker](#docker)
       - [RedNotebook (install from source, it just runs in place)](#rednotebook-install-from-source-it-just-runs-in-place)
       - [OpenWebRx](#openwebrx)
@@ -72,9 +73,6 @@ We hope this document is useful to everyone at TSYS who wants to maximize their 
     - IOGear card reader <https://www.iogear.com/product/GFR281/>
     - Security Dongle: Yubikey 4 OTP+U2F+CCID
 
-
-| Program              | Used By            | Link                                                                     | Product Scope                                     |
-| -------------------- | ------------------ | ------------------------------------------------------------------------ | ------------------------------------------------- |
 
 ### Out of box tweaks and basic setup
 
@@ -149,6 +147,14 @@ sudo npm install -g @bitwarden/cli
 ```console
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak -y install flathub org.kde.krita
+```
+
+#### Backslide
+
+```console
+sudo npm install -g backslide
+sudo npm i -g decktape
+sudo add chrome-aws-lambda
 ```
 
 #### Docker

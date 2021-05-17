@@ -1,1 +1,0 @@
-# Systems - Workstation Build Guide

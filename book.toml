@@ -2,5 +2,8 @@
 authors = ["Charles Wyble"]
 language = "en"
 multilingual = false
-src = "./src"
-title = "TSYS Group Handbook"
+src = "src"
+title = "TSYSGroupHandbook"
+
+[preprocessor.index]
+

@@ -1,7 +1,7 @@
 # TSYS Group Handbook
 
 # Introduction and overview
-- [TSYS Group Introduction](./intro.md)
+- [TSYS Group Introduction](./company/intro.md)
 
 # Board Of Directors
 
@@ -49,8 +49,9 @@
 - [Systems - TSYS HQ LAN](./CIO/Systems/Admin-DataCenter/networking/PFV-LAN.md)
 - [Systems - TSYS HQ WAN](./CIO/Systems/Admin-DataCenter/networking/PFV-WAN.md)
 - [Systems - Virtual Guests Inventory](./CIO/Systems/Admin-Platform/TSYS-Systems.md)
-- [Systems - Workstation Build Guide](./CIO/Systems/Admin-RAndD/EngWorkstationBuildGuide.md)
-- [Systems - VsCode Configuration Guide](./CIO/Systems/Admin-RAndD/VsCodeConfigGuide.md)
+- [Systems - Workstation Build Guide](./CIO/Systems/Admin-RandD/EngWorkstationBuildGuide.md)
+- [Systems - VsCode Configuration Guide](./CIO/Systems/Admin-RandD/VsCodeConfigGuide.md)
+
 
 # CMO
 
