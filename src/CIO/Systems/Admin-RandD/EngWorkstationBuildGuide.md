@@ -293,7 +293,7 @@ octave nodejs gpx2shp libreoffice calligra netbeans sigrok \
 nodejs audacity wireshark nmap tcpdump zenmap etherape ghostscript \
 geda ngspice graphicsmagick codeblocks scilab calibre paraview \
 gnuradio build-essential libimobiledevice-utils libimobiledevice-dev \
-libgpod-dev python3-numpy python3-pandas python3-matplotlib \
+libgpod-dev python3-numpy python3-pandas python3-matplotlib bluez-firmware \
 curl git make binutils bison gcc build-essential openjdk-11-jre-headless \
 debootstrap cutecom minicom ser2net conman xsane gocr  tesseract-ocr \
 fonts-powerline build-essential zlib1g zlib1g-dev libxml2 libxml2-dev \
@@ -302,8 +302,8 @@ libyaml-dev openssl autoconf libtool ncurses-dev bison curl wget postgresql \
 postgresql-contrib libpq-dev libapr1 libaprutil1 libsvn1 libpcap-dev ruby-dev \
 openvas git-core postgresql curl nmap gem libsqlite3-dev cmake ninja-build libopenscap-dev \
 qt5-default libqt5widgets5 libqt5widgets5 libqwt-headers libqt5xmlpatterns5-dev asciidoc \
-lmms virt-manager gqrx-sdr multimon-ng rtl-sdr fldigi grads cdo zygrib zygrib-maps \
-openwebrx xscreensaver
+lmms virt-manager gqrx-sdr multimon-ng rtl-sdr fldigi grads cdo zygrib zygrib-maps evince \
+openwebrx xscreensaver blueman bluetooth pulseaudio-module-bluetooth blueman bluewho
 ```
 
 #### General packages for the modern knowledge worker who is tech/security savvy
