@@ -4,8 +4,7 @@
   - [Introduction](#introduction)
   - [Workstation details - RPI4 8Gb](#workstation-details---rpi4-8gb)
     - [Out of box tweaks and basic setup](#out-of-box-tweaks-and-basic-setup)
-    - [Virtual Workspace Details](#virtual-workspace-details)
-    - [Non mainline software](#non-mainline-software)
+    - [Software Packages To Install](#software-packages-to-install)
       - [Nodejs](#nodejs)
       - [Rust](#rust)
       - [go](#go)
@@ -26,25 +25,30 @@
       - [scap workbench](#scap-workbench)
       - [Bitscope](#bitscope)
       - [docker based dev environment/pipeline](#docker-based-dev-environmentpipeline)
-      - [Misc items to setup/breakout into own section](#misc-items-to-setupbreakout-into-own-section)
-    - [Mainline Packages to install](#mainline-packages-to-install)
-      - [All the packages](#all-the-packages)
-      - [General packages for the modern knowledge worker who is tech/security savvy](#general-packages-for-the-modern-knowledge-worker-who-is-techsecurity-savvy)
-      - [R&d/creative workstation packages](#rdcreative-workstation-packages)
-      - [Full text search packages](#full-text-search-packages)
-      - [Document production packages](#document-production-packages)
-    - [chrome setup](#chrome-setup)
-    - [passwords/bitwarden](#passwordsbitwarden)
-    - [web apps](#web-apps)
-    - [zsh](#zsh)
-    - [konsole setup](#konsole-setup)
-    - [xfce tweaks](#xfce-tweaks)
-    - [bluetooth issues](#bluetooth-issues)
-    - [More advanced customization and configuration required](#more-advanced-customization-and-configuration-required)
+      - [Mainline repo packages](#mainline-repo-packages)
+    - [Configuration Tweaks](#configuration-tweaks)
+      - [chrome setup](#chrome-setup)
+      - [passwords/bitwarden](#passwordsbitwarden)
+      - [web apps](#web-apps)
+      - [zsh](#zsh)
+      - [konsole setup](#konsole-setup)
+      - [xfce tweaks](#xfce-tweaks)
       - [VsCode](#vscode)
     - [CTO Stuff](#cto-stuff)
+      - [Upstream vendor software to checkout](#upstream-vendor-software-to-checkout)
+        - [Projects](#projects)
+        - [Special considerations for upstream](#special-considerations-for-upstream)
   - [Workstation details - x86-64 vm](#workstation-details---x86-64-vm)
   - [Workstation details - iPAD](#workstation-details---ipad)
+    - [Remaining projects](#remaining-projects)
+      - [Make magic mouse 2 scrolling work on pi](#make-magic-mouse-2-scrolling-work-on-pi)
+      - [SSH / GPT private key HSM](#ssh--gpt-private-key-hsm)
+      - [TurboVNC (3d accelerated) on rpi as client](#turbovnc-3d-accelerated-on-rpi-as-client)
+      - [Select an Investigative notebook](#select-an-investigative-notebook)
+      - [Research source material organization](#research-source-material-organization)
+      - [activitywatch](#activitywatch)
+      - [Get photo processing workflow setup](#get-photo-processing-workflow-setup)
+      - [switch mail from (just) thunderbird to thunderbird/(neo)mutt/notmuch/task warrior](#switch-mail-from-just-thunderbird-to-thunderbirdneomuttnotmuchtask-warrior)
 
 ## Introduction
 
@@ -73,7 +77,6 @@ We hope this document is useful to everyone at TSYS who wants to maximize their 
     - IOGear card reader <https://www.iogear.com/product/GFR281/>
     - Security Dongle: Yubikey 4 OTP+U2F+CCID
 
-
 ### Out of box tweaks and basic setup
 
 1) Put Rasberry Pi 4 into Argone One Case (running it without case will cause it to overheat quickly)
@@ -90,17 +93,15 @@ We hope this document is useful to everyone at TSYS who wants to maximize their 
 10) clone dotfiles repo
 11) enable i2c access via raspi-config
 12) setup fan daemon <https://gitlab.com/DarkElvenAngel/argononed.git>
-15) (coming soon) run curl htp://dl.turnsys.net/buildFullWorkstation.sh
-
-### Virtual Workspace Details
+13) setup virtual desktops
 
 - Desktop 1: Browsing/Editing/Shell (chrome / VsCode / Konsole / Remmina )
 - Desktop 2: Comms (discourse/discord/irc etc/thunderbird/mutt)
 - Desktop 3: Long Running: (calibre/recol/etc)
 
-### Non mainline software
+14) (coming soon) run curl htp://dl.turnsys.net/buildFullWorkstation.sh
 
-Repositories to add and things that aren't deployed with apt-get.
+### Software Packages To Install
 
 #### Nodejs
 
@@ -235,45 +236,12 @@ sudo apt-get -y -f install
 
 Todo
 
-- local k3s (for gitops testing)
+- local k0s (for gitops testing)
 - (container) local docker reg
 - (container) local jenkins
+- (container) local all the apps for developing
 
-#### Misc items to setup/breakout into own section
-
-Todo
-
-- Make magic mouse 2 scrolling work on pi
-- activitywatch
-- switch mail from (just) thunderbird to thunderbird/(neo)mutt/notmuch/task warrior
-- TurboVNC (3d accelerated) on rpi as client
-- kleopatra
-  - yubikey ssh key
-  - yubikey gpg key
-- xca (build from source)
-- Select an Investigative notebook
-  - <https://github.com/kpcyrd/sn0int>
-  - <https://www.spiderfoot.net/>
-  - <https://github.com/smicallef/spiderfoot?ref=d>
-  - modelio <https://www.modelio.org/>
-  - <https://gephi.org/>
-- Research source material organization
-  - zotero
-  - docear <https://opensource.com/life/16/8/organize-your-scholarly-research-docear>
-- Get photo processing workflow setup
-  - currently exploring kphotoablbum  
-  - Browser based Sharing / browsing via Photoprism (or perhaps piwgio ultimately, with photoprism as part of a processing work flow)?
-  - need something to sync to "cloud" with auto capture from phone
-  - reference material:
-    - <https://photoprism.app/>
-    - <https://kn100.me/declouding-replacing-google-photos-part-1/>
-    - <https://willem.com/blog/2020-08-31_free-from-the-icloud-escaping-apple-photos/>
-
-### Mainline Packages to install
-
-First run apt-get update to ensure you are using packages from the above repositories and not the stock packages. Do any needed gpg key imports.
-
-#### All the packages
+#### Mainline repo packages
 
 ```console
 apt-get -y install \
@@ -306,47 +274,9 @@ lmms virt-manager gqrx-sdr multimon-ng rtl-sdr fldigi grads cdo zygrib zygrib-ma
 openwebrx xscreensaver blueman bluetooth pulseaudio-module-bluetooth blueman bluewho
 ```
 
-#### General packages for the modern knowledge worker who is tech/security savvy
+### Configuration Tweaks
 
-```console
-apt-get -y install \
-ruby-full offlineimap zsh vim thunderbird kleopatra zsh-autosuggestions \
-zsh-syntax-highlighting screen mtr rpi-imager cifs-utils dia basket \
-vym davmail kphotoalbum libreoffice calligra\
-enigmail opensc scdaemon nodejs calibre wireguardi \
-libimobiledevice-utils libimobiledevice-dev libgpod-dev \
-yubikey-manager yubikey-personalization yubikey-personalization-gui 
-```
-
-#### R&d/creative workstation packages
-
-```console
-apt-get -y install \
-kicad librecad freecad qgis audacity gpsbabel arduino \
-sigrok netbeans scilab blender gimp grass \
-openshot kdenlive pitivi inkscape scribus build-essential \
-geda ngspice gnuradio cubicsdr flatpak\
-shellcheck code codeblocks scilab paraview wings3d \
-python3-numpy python3-pandas python3-matplotlib \
-jupyter-notebook
-```
-
-#### Full text search packages
-
-```console
-apt-get -y install \
-ripgrep recoll poppler-utils  abiword wv antiword  \
-unrtf libimage-exiftool-perl xsltproc  
-```
-
-#### Document production packages
-
-```console
-apt-get -y install \
-pandoc python3-blockdiag  texlive-fonts-extra 
-```
-
-### chrome setup
+#### chrome setup
 
 1) launch chrome
 2) change language to english
@@ -359,7 +289,7 @@ pandoc python3-blockdiag  texlive-fonts-extra
    2) bitwarden
    3) pushover
 
-### passwords/bitwarden
+#### passwords/bitwarden
 
 1) disable chrome password saving/autofill (actually this is done via settings sync by google login) (so only need to set it if not already set in your settings)
 2) set bitwarden extension to use pwvault.turnsys.com
@@ -368,17 +298,17 @@ pandoc python3-blockdiag  texlive-fonts-extra
 5) set match selection to host
 6) set auto fill on page load
 
-### web apps
+#### web apps
 
 1) login to discord.com
 2) login to office.com
 
-### zsh
+#### zsh
 
 - Use oh-my-zsh
 - Use powerlevel10k
 
-### konsole setup
+#### konsole setup
 
 - settings -> edit current profile ->
   - apperance (set to dark pastels)
@@ -393,17 +323,11 @@ pandoc python3-blockdiag  texlive-fonts-extra
   - next tab ctrl+tab
   - previous ctrl+shift+tab
 
-### xfce tweaks
+#### xfce tweaks
 
 - Set focus follows mouse (settings/window manager/focus)
 - (dark mode)? (only works for gtk apps)
 - need to set other apps individually to dark mode
-
-### bluetooth issues
-
-run rpi-update or the keyboard will repeat (key stick) frequently
-
-### More advanced customization and configuration required
 
 #### VsCode
 
@@ -415,14 +339,25 @@ to see how I set it up VsCode for a myriad of tasks, see the VsCode guide for ts
 
 ### CTO Stuff
 
+#### Upstream vendor software to checkout
+
+This is a massive work in progress , is mostly for Charles own notes only, really only applicable for large upstream packages that TSYS needs to support 
+long term/sync regularly with upstream, or part of a broader protfolio initiative etc.
+
+Unless you have been specfically directed todo so in your roject readme, you don't need todo the below. In almost all cases , the work below is abstracted
+for/from you into our artifact repository and build process.
+
+##### Projects
+
 - openwrt
 - openmct
-- raspi
-- arduino
+- raspi kernel
+- FreeRTOS
 - freedombox
 - serval
 - genode
-- jupyter
+
+##### Special considerations for upstream
 
 ## Workstation details - x86-64 vm
 
@@ -455,3 +390,53 @@ to see how I set it up VsCode for a myriad of tasks, see the VsCode guide for ts
   - Discourse
   - FreeScout
   - ErpNext
+
+### Remaining projects
+
+These items remain todo and document. They are listed in decreasing order of importance.
+
+#### Make magic mouse 2 scrolling work on pi
+
+I've done some cursory work but further debugging needed. Very high priorty.
+
+#### SSH / GPT private key HSM
+
+- kleopatra
+  - yubikey ssh key
+  - yubikey gpg key
+
+  (not strictly related but in same family)
+  - xca (build from source)
+
+#### TurboVNC (3d accelerated) on rpi as client
+
+#### Select an Investigative notebook
+
+- <https://github.com/kpcyrd/sn0int>
+- <https://www.spiderfoot.net/>
+- <https://github.com/smicallef/spiderfoot?ref=d>
+- modelio <https://www.modelio.org/>
+- <https://gephi.org/>
+
+#### Research source material organization
+
+- zotero
+- docear <https://opensource.com/life/16/8/organize-your-scholarly-research-docear>
+
+#### activitywatch
+
+Effortless self instrumentation. Performed initial attempts/exploration. It builds (I think)
+
+#### Get photo processing workflow setup
+
+- currently exploring kphotoablbum  
+- Browser based Sharing / browsing via Photoprism (or perhaps piwgio ultimately, with photoprism as part of a processing work flow)?
+- need something to sync to "cloud" with auto capture from phone
+- reference material:
+  - <https://photoprism.app/>
+  - <https://kn100.me/declouding-replacing-google-photos-part-1/>
+  - <https://willem.com/blog/2020-08-31_free-from-the-icloud-escaping-apple-photos/>
+
+#### switch mail from (just) thunderbird to thunderbird/(neo)mutt/notmuch/task warrior
+
+This has been an ongoing on-again/off-again adventure....
