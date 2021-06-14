@@ -98,5 +98,5 @@
 [34]:	./CIO/Systems/Admin-DataCenter/networking/PFV-LAN.md
 [35]:	./CIO/Systems/Admin-DataCenter/networking/PFV-WAN.md
 [36]:	./CIO/Systems/Admin-Platform/TSYS-Systems.md
-[37]:	./CIO/Systems/Admin-RAndD/EngWorkstationBuildGuide.md
-[38]:	./CIO/Systems/Admin-RAndD/VsCodeConfigGuide.md
+[37]:	./CIO/Systems/Admin-RandD/EngWorkstationBuildGuide.md
+[38]:	./CIO/Systems/Admin-RandD/VsCodeConfigGuide.md

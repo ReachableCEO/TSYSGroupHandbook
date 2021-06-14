@@ -5,6 +5,7 @@
   - [Workstation details - RPI4 8Gb](#workstation-details---rpi4-8gb)
     - [Out of box tweaks and basic setup](#out-of-box-tweaks-and-basic-setup)
     - [Software Packages To Install](#software-packages-to-install)
+      - [magic mouse 2 driver](#magic-mouse-2-driver)
       - [Nodejs](#nodejs)
       - [Rust](#rust)
       - [go](#go)
@@ -41,7 +42,6 @@
   - [Workstation details - x86-64 vm](#workstation-details---x86-64-vm)
   - [Workstation details - iPAD](#workstation-details---ipad)
     - [Remaining projects](#remaining-projects)
-      - [Make magic mouse 2 scrolling work on pi](#make-magic-mouse-2-scrolling-work-on-pi)
       - [SSH / GPT private key HSM](#ssh--gpt-private-key-hsm)
       - [TurboVNC (3d accelerated) on rpi as client](#turbovnc-3d-accelerated-on-rpi-as-client)
       - [Select an Investigative notebook](#select-an-investigative-notebook)
@@ -102,6 +102,10 @@ We hope this document is useful to everyone at TSYS who wants to maximize their 
 14) (coming soon) run curl htp://dl.turnsys.net/buildFullWorkstation.sh
 
 ### Software Packages To Install
+
+#### magic mouse 2 driver
+
+https://github.com/rohitpid/Linux-Magic-Trackpad-2-Driver 
 
 #### Nodejs
 
@@ -245,14 +249,14 @@ Todo
 
 ```console
 apt-get -y install \
-kicad librecad freecad gimp blender shellcheck \
+kicad librecad freecad gimp blender shellcheck jq \
 ruby-full offlineimap zsh vim thunderbird enigmail \
 kleopatra zsh-autosuggestions zsh-syntax-highlighting screen \
 mtr rpi-imager cifs-utils grass cubicsdr arduino jupyter-notebook \
 dia basket vym code wings3d flatpak wireguard gnuplot \
-pandoc python3-blockdiag  texlive-fonts-extra \
+pandoc python3-blockdiag  texlive-fonts-extra clang \
 spice-client-gtk spice-html5 virt-viewer gnome-system-monitor \
-glances htop dstat apt-file kleopatra konsole telnet \
+glances htop dstat apt-file kleopatra konsole telnet clang \
 ripgrep recoll poppler-utils  abiword wv antiword  unrtf  \
 libimage-exiftool-perl xsltproc davmail kphotoalbum opensc \
 yubikey-manager yubikey-personalization yubikey-personalization-gui \
@@ -356,6 +360,7 @@ for/from you into our artifact repository and build process.
 - freedombox
 - serval
 - genode
+- balena
 
 ##### Special considerations for upstream
 
@@ -395,9 +400,6 @@ for/from you into our artifact repository and build process.
 
 These items remain todo and document. They are listed in decreasing order of importance.
 
-#### Make magic mouse 2 scrolling work on pi
-
-I've done some cursory work but further debugging needed. Very high priorty.
 
 #### SSH / GPT private key HSM
 
