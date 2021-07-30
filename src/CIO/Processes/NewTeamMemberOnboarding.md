@@ -39,7 +39,7 @@ final bugs!
 * Invite user to Discord
 * Create user account in UCS 
 * Send initial UCS username/ppassword via discord DM
-* Have user change password at https://accounts.knownelemetn.com
+* Have user change password at https://accounts.knownelement.com
 * Once user has changed password, add them to appropriate UCS groups 
 
 ### R&D users
