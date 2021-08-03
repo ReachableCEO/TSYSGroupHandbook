@@ -271,7 +271,7 @@ sudo snap install helm --classic
 
 ```console
 apt-get -y install \
-kicad librecad freecad gimp blender shellcheck jq \
+kicad librecad freecad gimp blender shellcheck jq net-tools\
 ruby-full offlineimap zsh vim thunderbird enigmail \
 kleopatra zsh-autosuggestions zsh-syntax-highlighting screen \
 mtr cifs-utils grass cubicsdr arduino jupyter-notebook \
