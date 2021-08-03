@@ -52,15 +52,27 @@
 
 ## Introduction
 
-In 01/2021 , Charles purchased a Raspberry Pi 4 as his daily driver with the intent of evaluating it for use as the standard issue equipment for TSYS personnel. This document is the results of his experiments with it from 01/2021 to (as of time of writing) June 2021. The RPi4 has been approved as the standard/supported workstation for TSYS across all teams/products.
+In 01/2021 , Charles purchased a Raspberry Pi 4 as his daily driver with the intent of evaluating it for use as the standard issue equipment for TSYS personnel. This document is the results of his 
+experiments with it from 01/2021 to (as of time of writing) August 1st 2021. 
 
-Charles is the founder, CEO and acting CTO/CIO of TSYS Group. In his role, he does everything from business ops, to system administration to software/hardware engineering tasks. As such he was best positioned to evaluate the rPI for all workloads.
+Charles is the founder, CEO and acting CTO of TSYS Group. In his role, he does everything from business ops, to system administration to software/hardware engineering tasks. As such he was best 
+positioned to evaluate the rPI for all workloads.
 
-The software mentioned in this document is a long list, reflecting the myriad of tasks/projects Charles may engage with on a daily basis.  Most likely, you'll only need a subset of these tools, don't despair! Feel free to install all of them or a subset as you wish.
+The RPi4 has been approved as one of the standard/supported workstation for TSYS personnel across all teams/products.
 
-We hope this document is useful to everyone at TSYS who wants to maximize their productivity. TSYS fully supports Debian/Ubuntu GNU Linux for workstation use, both on rPI4 and x86 virtual/physical systems. We do occasionally test Mac OSX and Windows 10, but they aren't officially supported.  Ou experiments and daily use show that 85% or more of TSYS daily driver/workstation use (email/coding/research/browsing/document creation/discord/media editing/etc) can be done on an rPI4. The gaps (if any) can be done via an RDP session to an x86 vm for the few things that have x86 dependencies or need 64bit os (64bit on pi isn't yet fully ready in our opinion as of June 2021).
+The software mentioned in this document is a long list, reflecting the myriad of tasks/projects Charles may engage with on a daily basis.  Most likely, you'll only need a subset of these tools, 
+don't despair! Feel free to install all of them or a subset as you wish based on your mission objectives.
 
-## Workstation details - RPI4 8Gb
+We hope this document is useful to everyone at TSYS who wants to maximize their productivity. TSYS fully supports Debian/Ubuntu GNU Linux for workstation use, both on rPI4 and x86 virtual/physical 
+systems. 
+
+We do occasionally test Mac OSX and Windows 10, but they aren't officially supported.  
+
+Our experiments and daily use show that 85% or more of TSYS daily driver/workstation use (email/coding/research/browsing/document creation/discord/media editing/etc) can be done on an rPI4. 
+
+The few gaps can be done via an RDP session to an x86 system for the few things that have x86 dependencies or need 64bit os (64bit on pi isn't yet fully ready in our opinion as of August 2021).
+
+## Charles Workstation details - RPI4 8Gb
 
 - Operating System: RaspberryPi Os
 - Hardware:
@@ -162,12 +174,6 @@ sudo npm i -g decktape
 sudo add chrome-aws-lambda
 ```
 
-#### Docker
-
-```console
- curl -sSL https://get.docker.com | sh
-```
-
 #### RedNotebook (install from source, it just runs in place)
 
 <https://rednotebook.sourceforge.io/downloads.html>
@@ -175,8 +181,17 @@ sudo add chrome-aws-lambda
 
 #### OpenWebRx
 
+on pi:
+
 wget -O - <https://repo.openwebrx.de/debian/key.gpg.txt> | apt-key add
 echo "deb <https://repo.openwebrx.de/debian/> buster main" > /etc/apt/sources.list.d/openwebrx.list
+apt-get update
+apt-get install openwebrx
+
+or (on x86)
+
+wget -O - https://repo.openwebrx.de/debian/key.gpg.txt | apt-key add
+echo "deb https://repo.openwebrx.de/ubuntu/ hirsute main" > /etc/apt/sources.list.d/openwebrx.list
 apt-get update
 apt-get install openwebrx
 
@@ -185,26 +200,6 @@ apt-get install openwebrx
 ```console
 npm install -g csv2md
 ```
-
-#### helm
-
-```console
-sudo snap install helm --classic
-```
-
-#### kubectl / k3s
-
-```console
-    curl -sfL https://get.k3s.io | sh -
-```
-
-#### docker
-
-```console
-curl -sSL https://get.docker.com | sh
-```
-
-#### docker-compose
 
 #### metasploit
 
@@ -221,6 +216,8 @@ Follow the readme
 
 #### Bitscope
 
+on pi
+
 ```console
 wget http://bitscope.com/download/files/bitscope-dso_2.8.FE22H_armhf.deb
 wget http://bitscope.com/download/files/bitscope-logic_1.2.FC20C_armhf.deb
@@ -236,9 +233,34 @@ sudo apt-get -y -f install
 
 ```
 
+on x86
+
+TBD
+
 #### docker based dev environment/pipeline
 
-Todo
+##### docker
+
+```console
+curl -sSL https://get.docker.com | sh
+```
+
+##### helm
+
+
+```console
+sudo snap install helm --classic
+```
+
+##### kubectl / k3s
+
+```console
+    curl -sfL https://get.k3s.io | sh -
+```
+
+##### docker-compose
+
+##### Todo
 
 - local k0s (for gitops testing)
 - (container) local docker reg
@@ -252,7 +274,7 @@ apt-get -y install \
 kicad librecad freecad gimp blender shellcheck jq \
 ruby-full offlineimap zsh vim thunderbird enigmail \
 kleopatra zsh-autosuggestions zsh-syntax-highlighting screen \
-mtr rpi-imager cifs-utils grass cubicsdr arduino jupyter-notebook \
+mtr cifs-utils grass cubicsdr arduino jupyter-notebook \
 dia basket vym code wings3d flatpak wireguard gnuplot \
 pandoc python3-blockdiag  texlive-fonts-extra clang \
 spice-client-gtk spice-html5 virt-viewer gnome-system-monitor \
@@ -261,11 +283,11 @@ ripgrep recoll poppler-utils  abiword wv antiword  unrtf  \
 libimage-exiftool-perl xsltproc davmail kphotoalbum opensc \
 yubikey-manager yubikey-personalization yubikey-personalization-gui \
 openshot kdenlive pitivi inkscape scribus scdaemon seafile-gui qgis \
-octave nodejs gpx2shp libreoffice calligra netbeans sigrok \
-nodejs audacity wireshark nmap tcpdump zenmap etherape ghostscript \
-geda ngspice graphicsmagick codeblocks scilab calibre paraview \
+octave nodejs libreoffice calligra netbeans sigrok \
+nodejs audacity wireshark nmap tcpdump ndiff etherape ghostscript \
+lepton-eda ngspice graphicsmagick codeblocks scilab calibre paraview \
 gnuradio build-essential libimobiledevice-utils libimobiledevice-dev \
-libgpod-dev python3-numpy python3-pandas python3-matplotlib bluez-firmware \
+libgpod-dev python3-numpy python3-pandas python3-matplotlib \
 curl git make binutils bison gcc build-essential openjdk-11-jre-headless \
 debootstrap cutecom minicom ser2net conman xsane gocr  tesseract-ocr \
 fonts-powerline build-essential zlib1g zlib1g-dev libxml2 libxml2-dev \
@@ -274,38 +296,13 @@ libyaml-dev openssl autoconf libtool ncurses-dev bison curl wget postgresql \
 postgresql-contrib libpq-dev libapr1 libaprutil1 libsvn1 libpcap-dev ruby-dev \
 openvas git-core postgresql curl nmap gem libsqlite3-dev cmake ninja-build libopenscap-dev \
 qt5-default libqt5widgets5 libqt5widgets5 libqwt-headers libqt5xmlpatterns5-dev asciidoc \
-lmms virt-manager gqrx-sdr multimon-ng rtl-sdr fldigi grads cdo zygrib zygrib-maps evince \
-openwebrx xscreensaver blueman bluetooth pulseaudio-module-bluetooth blueman bluewho
+lmms virt-manager gqrx-sdr multimon-ng rtl-sdr fldigi grads cdo xygrib xygrib-maps evince \
+openwebrx xscreensaver blueman bluetooth pulseaudio-module-bluetooth blueman texlive-fonts-extra \
+texlive-fonts-recommended 
 ```
 
 ### Configuration Tweaks
 
-#### chrome setup
-
-1) launch chrome
-2) change language to english
-3) enable dark mode (<https://www.pocket-lint.com/apps/news/google/149866-how-to-enable-dark-mode-for-google-chrome>)
-4) login to pwvault.turnsys.com and obtain google account creds
-5) login to google account and enable sync
-6) (optional at this time) setup any extension configuration needed that results from logging in to google account/turning on sync
-7) ensure the following extensions are installed:
-   1) vimium
-   2) bitwarden
-   3) pushover
-
-#### passwords/bitwarden
-
-1) disable chrome password saving/autofill (actually this is done via settings sync by google login) (so only need to set it if not already set in your settings)
-2) set bitwarden extension to use pwvault.turnsys.com
-3) login to bitwarden via extension
-4) set vault to not lock ever (balance security/convenience (with locked workstation and using pin+yubi to unlock workstation)
-5) set match selection to host
-6) set auto fill on page load
-
-#### web apps
-
-1) login to discord.com
-2) login to office.com
 
 #### zsh
 
@@ -341,7 +338,17 @@ to see how I set it up VsCode for a myriad of tasks, see the VsCode guide for ts
 
 <https://git.turnsys.com/TSGTechops/docs-techops/src/branch/master/src/Systems/Admin-RandD/TSYS-DevEnv-VsCode.md>
 
+
+
 ### CTO Stuff
+
+#### mbed studio
+#### eclipse
+#### android studio
+#### dbeaver
+#### postman
+#### sweethome3d
+#### ghidra
 
 #### Upstream vendor software to checkout
 
@@ -364,17 +371,6 @@ for/from you into our artifact repository and build process.
 
 ##### Special considerations for upstream
 
-## Workstation details - x86-64 vm
-
-- Operating System: Ubuntu Server 20.04 with xfce/xrdp
-- Hardware: KVM 4gb ram
-- Applications (limited, things that don't (easily) run on the rpi):
-  - mbed studio
-  - eclipse
-  - android studio
-  - dbeaver
-  - postman
-  - sweethome3d
 
 ## Workstation details - iPAD
 
