@@ -1,1 +1,0 @@
-# Committe Charter - Executive

@@ -1,3 +1,0 @@
-# TSGHandbook
-
-TSYS Group handbook 
