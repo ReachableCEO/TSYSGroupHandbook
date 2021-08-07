@@ -79,9 +79,8 @@
 
 # Part 12: Funtional Area: Chief Revenue Officer
 
-# Part 13: Outreach Material - Pitch Deck / Orientation 
+# Part 13: Outreach Material - Pitch Deck / Orientation
 
-- [External Deliverables - US Federal Government](./PitchDeck/ExternalDeliverables-USG.md)
 - [Introduction To TSYS Group](./PitchDeck/Orientation/TSYSGroupIntro.md)
 - [Components - NotPrimarilyForProfit](./PitchDeck/Orientation/CorpComponents-NotPrimarilyForProfit.md)
 - [Components - Cooperative](./PitchDeck/Orientation/CorpComponents-Coop.md)
@@ -105,5 +104,13 @@
 - [Risk Factors - Overview](./PitchDeck/Orientation/RiskFactorsOverview.md)
 - [Risk Factors - Regulatory Environment](./PitchDeck/Orientation/RiskFactorsRegulatoryEnvironment.md)
 - [Wrap Up](./PitchDeck/Orientation/WrapUp.md)
+- [Deliverables Produced For External Consumption/Evaluation - US Federal Government](./PitchDeck/ExternalDeliverables-USG.md)
+- [SBIR Pitch - Company / Team](./PitchDeck/SbirPitch/company-team.md)
+- [SBIR Pitch - Innovation](./PitchDeck/SbirPitch/innovation.md)
+- [SBIR Pitch - Market Opportunity](./PitchDeck/SbirPitch/market-opportunity.md)
+- [SBIR Pitch - Objectives / Challenges](./PitchDeck/SbirPitch/objectives-challenges.md)
 
 # Part 14: TSYS Group Governing Documents
+
+- [(series LLC) Operating Agreement - used by Turn Net Systems LLC]
+- [(standalone LLC) Operating Agreement - used by Suborbital Systems Development Company LLC and RackRental.net Operating Company LLC]
