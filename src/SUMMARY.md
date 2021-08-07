@@ -23,7 +23,7 @@
 
 - [TSYS Group GrowthAndChange](./culture/TheoryOfRecruitmentAndOnboarding.md)
 
-# Part 5: Functional Area : Governance, Oversight, Stakeholder Balance
+# Part 5: Functional Area : Group Wide Independent Governance, Oversight, Stakeholder Representation
 
 - [Board Of Directors Manual](./Board/BoardOfDirectorsManual.md)
 - [Executive Governance Nominating Committee Charter](./Board/charters/Executive-Governance-Nominating-Committee-Charter.md)
@@ -78,3 +78,32 @@
 # Part 11: Functional Area: Chief Marketing Officer
 
 # Part 12: Funtional Area: Chief Revenue Officer
+
+# Part 13: Outreach Material - Pitch Deck / Orientation 
+
+- [External Deliverables - US Federal Government](./PitchDeck/ExternalDeliverables-USG.md)
+- [Introduction To TSYS Group](./PitchDeck/Orientation/TSYSGroupIntro.md)
+- [Components - NotPrimarilyForProfit](./PitchDeck/Orientation/CorpComponents-NotPrimarilyForProfit.md)
+- [Components - Cooperative](./PitchDeck/Orientation/CorpComponents-Coop.md)
+- [What TSYS Group Does](./PitchDeck/Orientation/WhatTSYSGroupDoes.md)
+- [Why TSYS Group Does What We Do](./PitchDeck/Orientation/WhyTSYSGroupDoes.md)
+- [How TSYS Group Does What We Do](./PitchDeck/Orientation/HowTSYSGroupDoes.md)
+- [TSYS Group Values](./PitchDeck/Orientation/TSYSGroupValues.md)
+- [People and Product Management](./PitchDeck/Orientation/PeopleAndProductManagement.md)
+- [Performance & Compensation](./PitchDeck/Orientation/PerfAndComp.md)
+- [Team Structure](./PitchDeck/Orientation/TeamStructure.md)
+- [Market Overview](./PitchDeck/Orientation/MarketOverview.md)
+- [The Product](./PitchDeck/Orientation/TheProduct.md)
+- [How We Build Product](./PitchDeck/Orientation/HowWeBuildProduct.md)
+- [Product Tooling](./PitchDeck/Orientation/ProductTooling.md)
+- [Product Supply Chain](./PitchDeck/Orientation/ProductSupplyChain.md)
+- [The Services](./PitchDeck/Orientation/TheServices.md)
+- [How We Build Services](./PitchDeck/Orientation/HowWeBuildServices.md)
+- [Service Tooling](./PitchDeck/Orientation/ServiceTooling.md)
+- [Service Supply Chain](./PitchDeck/Orientation/ServiceSupplyChain.md)
+- [Financial Information](./PitchDeck/Orientation/Finances.md)
+- [Risk Factors - Overview](./PitchDeck/Orientation/RiskFactorsOverview.md)
+- [Risk Factors - Regulatory Environment](./PitchDeck/Orientation/RiskFactorsRegulatoryEnvironment.md)
+- [Wrap Up](./PitchDeck/Orientation/WrapUp.md)
+
+# Part 14: TSYS Group Governing Documents
