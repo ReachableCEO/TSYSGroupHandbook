@@ -32,6 +32,23 @@
 - [Non Profit Committee Charter](./Board/charters/NonProfit-Committee-Charter.md)
 - [HFNOC Committee Charter](./Board/charters/HFNOC-Committee-Charter.md)
 - [Redwood Committee Charter](./Board/charters/Redwood-Committee-Charter.md)
+- [LLC name and purpose](./OperatingAgreement-StandaloneLLC/CompanyNameAndPurpose.md)
+- [Definitions](./OperatingAgreement-StandaloneLLC/Definitions.md)
+- [Boilerplate terms and conditions](./OperatingAgreement-StandaloneLLC/CommonTermsAndConditions.md)
+- [Profit Interests Grant](./OperatingAgreement-StandaloneLLC/ProfitInterest.md)
+- [Member Time And Capital Contribution Requirements](./OperatingAgreement-StandaloneLLC/TimeAndCapitalRequirements.md)
+- [Distribution of Profits to Members](./OperatingAgreement-StandaloneLLC/Distributions.md)
+- [Removal of a member](./OperatingAgreement-StandaloneLLC/MemberRemoval.md)
+- [Raising Outside Capital](./OperatingAgreement-StandaloneLLC/OutsideCapRaise.md) 
+- [Dissolution of the LLC](./OperatingAgreement-StandaloneLLC/Dissolution.md)
+- [Rights of Members to access company information](./OperatingAgreement-StandaloneLLC/RightsToCompanyInformation.md)
+- [LLC Accounts and Records](./OperatingAgreement-StandaloneLLC/AccountsAndRecords.md)
+- [Granting of additional membership interests](./OperatingAgreement-StandaloneLLC/AdditionalMembershipInterests.md)
+- [Limited indemnification for directors](./OperatingAgreement-StandaloneLLC/Indemnification.md)
+- [Member assignment of Intellectual Property to LLC](./OperatingAgreement-StandaloneLLC/IntelectualPropertAssign.md)
+- [Management of the LLC](./OperatingAgreement-StandaloneLLC/ManagementOfTheLLC.md)
+- [Taxes](./OperatingAgreement-StandaloneLLC/Taxes.md)
+- [NDA](./OperatingAgreement-StandaloneLLC/NonDisclosure.md)
 
 # Part 6: Functional Area: Chief Executive Officer
 
@@ -109,8 +126,3 @@
 - [SBIR Pitch - Innovation](./PitchDeck/SbirPitch/innovation.md)
 - [SBIR Pitch - Market Opportunity](./PitchDeck/SbirPitch/market-opportunity.md)
 - [SBIR Pitch - Objectives / Challenges](./PitchDeck/SbirPitch/objectives-challenges.md)
-
-# Part 14: TSYS Group Governing Documents
-
-- [(series LLC) Operating Agreement - used by Turn Net Systems LLC]
-- [(standalone LLC) Operating Agreement - used by Suborbital Systems Development Company LLC and RackRental.net Operating Company LLC]

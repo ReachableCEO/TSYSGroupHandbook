@@ -5,10 +5,10 @@ To the fullest extent permitted by law, and subject to the limitations set
 forth in this Section, and with, in each case, the Board Of Directors
 prior approval: 
 
-* the Company may (at the Members sole discretion) indemnify each Director
-or Member for any Adverse Consequences 
-that a Director or Member may suffer including, but not limited to, any
-Director, or Member who, is to be made a party to any pending or
+* the Company may (at the Members sole discretion) indemnify any or each Director
+for any Adverse Consequences 
+that a Director may suffer including, but not limited to, any
+Director who, is to be made a party to any pending or
 completed action, suit or proceeding ("**Proceeding**"), any appeal
 therein, or any inquiry or investigation preliminary thereto, solely by
 reason of the fact that he or she is or was a Director, Member and was
@@ -16,13 +16,11 @@ acting within scope of duties or under the authority of the Company and
 was not in breach of agreements or violating fiduciary responsibility 
 as determned by the Members;
 
-* the Company may (at the Members sole discretion) pay a Director or Member for expenses 
-incurred by him or her:
+* the Company may (at the Members sole discretion) pay a Director for expenses incurred by him or her:
 
-(1) in advance of any deposition of a Proceeding to which such Director or Member is a party, and
+(1) in advance of any deposition of a Proceeding to which such Director is a party, and
 
-(2) in connection with his or her appearance as a witness or other participation in any 
-Proceeding. 
+(2) in connection with his or her appearance as a witness or other participation in any Proceeding. 
 
 Such indemnification may also include counsel fees. 
 

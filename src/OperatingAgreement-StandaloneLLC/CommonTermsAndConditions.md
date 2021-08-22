@@ -266,3 +266,18 @@ Any attempted Transfer of all or any portion of a Membership Interest,
 shall be void and result in the immediate (no vote required) expulsion
 of the Member and forefiture of Member interest and the right of the Company
 to pursue the Member for any and all remedies under law.
+
+## Duty of care
+
+Each Member shall discharge their duties in a good and proper manner
+as provided for in this Agreement. Each Member, on behalf of the
+Company shall enforce agreements entered into
+by the Company and conduct or cause to be
+conducted the ordinary business and affairs of the Company in
+accordance with good industry practice and the provisions of this
+Agreement. 
+
+## Liability to Third Parties
+No Member or Director, solely by reason of being a
+member or Director, shall be liable for the debts, obligations, or liabilities of
+the Company.
