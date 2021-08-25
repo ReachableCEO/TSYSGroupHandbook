@@ -2,6 +2,7 @@
 
 - [Preface](./culture/Preface.md)
 - [How to use this book](./culture/HowToUseThisBook.md)
+- [FAQ](./FAQ.md)
 
 # Part 1 : Welcome to TSYS Group
 
