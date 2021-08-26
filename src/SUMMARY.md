@@ -65,7 +65,7 @@
 - [TeamSwEng - Supply Chain](./CTO/team-sweng/SwEngSupplyChain.md)
 - [TeamSwEng - Tooling](./CTO/team-sweng/SwEngTooling.md)
 - [TeamMecheng - Supply Chain](./CTO/team-mecheng/MechEngSupplyChain.md)
-- [TeamMecheng - Tooling](/CTO/team-mecheng/MechEngTooling.md)
+- [TeamMecheng - Tooling](./CTO/team-mecheng/MechEngTooling.md)
 
 
 # Part 10: Functional Area: Chief Information Technology Officer
@@ -78,7 +78,7 @@
 - [Processes - PFV Datacenter Runbook](./CIO/Processes/PFVRunbook.md)
 - [Processes - VPN User Management](./CIO/Processes/VpnUser.md)
 - [Processes - Vulnerability Management](./CIO/Processes/VulnerabilityManagmentNotes.md)
-- [Systems - Overview](/CIO/Systems/TSYS-Systems.md)
+- [Systems - Overview](./CIO/Systems/TSYS-Systems.md)
 - [Systems - Applications And Web Services](./CIO/Systems/Admin-Application/AppsAndServices.md)
 - [Systems - Runtime Environment for Hosted Services](./CIO/Systems/Admin-Application/RuntimeLayer.md)
 - [Systems - Web Server Configuration](./CIO/Systems/Admin-Application/WebServerSetupNotes.md)

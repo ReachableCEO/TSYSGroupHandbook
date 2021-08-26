@@ -1,5 +1,5 @@
 
-* What is the overall vison?
+* What is the overall vision?
 
 We envision a world where everyone is able to connect without interference, censorship at a cost always trending lower (as close to zero) as possible.
 
