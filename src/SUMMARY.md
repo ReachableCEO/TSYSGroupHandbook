@@ -70,6 +70,7 @@
 
 # Part 10: Functional Area: Chief Information Technology Officer
 
+- [Known Element Enterprises Charter](./CIO/KnelCharter.md)
 - [Policies - Business Continuity Plan](./CIO/Policies/BusinessContinuityPlan.md)
 - [Policies - Authentication](./CIO/Policies/Authentication.md)
 - [Processes - Two Factor Authentication ](./CIO/Processes/2fa.md)
