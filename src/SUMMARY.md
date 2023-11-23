@@ -67,7 +67,6 @@
 - [TeamMecheng - Supply Chain](./CTO/team-mecheng/MechEngSupplyChain.md)
 - [TeamMecheng - Tooling](./CTO/team-mecheng/MechEngTooling.md)
 
-
 # Part 10: Functional Area: Chief Information Technology Officer
 
 - [Known Element Enterprises Charter](./CIO/KnelCharter.md)
