@@ -51,7 +51,6 @@
 - [Taxes](./OperatingAgreement-StandaloneLLC/Taxes.md)
 - [NDA](./OperatingAgreement-StandaloneLLC/NonDisclosure.md)
 
-# Part 6: Functional Area: Chief Executive Officer
 
 # Part 7: Functional Area: Chief Operations Officer
 
