@@ -1,8 +1,8 @@
 
 # ForProfit Committee Charter
 
-As stated in the Operating Agreement of the Company electing oversight by this committee, any changes to this charer must be approved by unamious
-written consent of all Members of all entities under this committee.
+As stated in the Operating Agreement of the Component electing oversight by this committee, any changes to this charer must be approved by unamious
+written consent of all Members of all components governed under this committee.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ The ForPofit Committee provides support, guidance and counsel to Management and 
 * Suborbital 
 * Axios Heart Studios 
 
-and other affiliated entities that may elect oversight by this committee
+and other affiliated components that may elect oversight by this committee
 
 ## Director Elections
 
@@ -43,6 +43,7 @@ The Committee may participate in a meeting by means of conference telephone or s
 in the meeting can hear each other, and participation in such a meeting pursuant to this Section shall constitute presence in person at such meeting.
  
 ## Notice and waiver; quorum 
+
 Notice of any meeting of the Committee shall be given to each director personally or by e-mail , or telephone call 
 addressed to such director at such director’s last known e-mail address and/or phone number, at least two (2) days prior 
 to the meeting. 

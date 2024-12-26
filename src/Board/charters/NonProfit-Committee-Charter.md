@@ -62,6 +62,7 @@ Meetings may be attended remotely through electronic means.
 The presence of fifty percent (50%) of the directors at any meeting constitutes a quorum.
 
 ## Term of Office
+
 Board members are elected to a two-year term of office. The term is without compensation. The Board is made up of 3 to 15 members. Terms begin in November at 
 our annual meeting and expire at the conclusion of the second annual meeting following their election. 
 
@@ -92,6 +93,7 @@ The officers of the Committee serve one year terms in their respective offices. 
 voting Directors whenever in its judgment the best interests of the Entities will be served.
 
 ### President
+
 1. Is a member of the Committee and serves as the chief volunteer of the Entities.
 2. Presides at all meetings of the Committee after developing the agenda with the Entity Executive Directors.
 3. Encourages the Committee role in strategic planning.
@@ -101,6 +103,7 @@ voting Directors whenever in its judgment the best interests of the Entities wil
 7. Reports to the full TSYS Group Board Of Directors on the committee’s decisions and recommendations.
 
 ### Vice President
+
 1. Is a member of the Committee.
 2. Performs responsibilities of the Committee President when the President is not available.
 3. Works closely with the Committee President and the Group Entity staff to achieve the mission of the Entities.
@@ -144,6 +147,7 @@ The Finance Sub Committee recommends policy regarding the Entity finances and as
 responsibility for safeguarding any endowment or reserve funds.
 
 ### Nominating Sub Committee
+
 The Nominating Sub Committee members ensure the Committee has an effective process and structure in place to conduct business. They are responsible for 
 planning the Committee retreat, sub committee development, ongoing training of Committee members and  Committee evaluation. 
 
@@ -200,6 +204,7 @@ confidentiality. For instance, if a staff person or volunteer approaches a Commi
 the Entities operation, the Committee member should refer the matter back to the Executive Director.
 
 ## Commitee Member as representative of Entity
+
 Committee members should be well informed of the mission and goals of the Entities.  Each member should strive to educate, inform, and 
 recruit support for the programs in the community. 
 
